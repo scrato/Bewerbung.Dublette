@@ -2,8 +2,8 @@
 
 Eine Bibliothek und Kommandozeilenapplikation um Dubletten innerhalb einer Ordnerstruktur zu identifizieren.
 
-
-# Instanzierung
+# Verwendung
+## Instanzierung
 Im u.g. Beispiel sieht man die Instanzierung einer DublettenprüfungFactory
 
 ```mermaid
@@ -19,7 +19,7 @@ sequenceDiagram
     Aufrufer->>+Dublettenprüfung: Hier kann nun auf das Dublettenprüfung-Objekt zugegriffen werden
 ```
 
-# Vergleiche
+## Vergleiche
 Ist die Dublettenprüfung-Klasse instanziert, beinhaltet sie folgende Aufrufe zur Ausführung der Vergleichslogik:
 ```mermaid
 ---
@@ -43,7 +43,7 @@ classDiagram
      
 ```
    
-# Kommandozeilenprogramm:
+## Kommandozeilenprogramm:
 Das Programm _Dublette.exe_ kapselt die Logik der Klasse IDublettenprüfung und ist wie folgt definiert:
 
 ```
@@ -62,6 +62,9 @@ Optional:
 AUSGABE:
     Die Rückgabe ist eine Liste von Dubletten, die über den primären FindModus gefunden werden und per MD5-Hashvergleich identisch sind.
 ```
+
+# Onlinedokumentation
+Ein Dokumentationsmarkdown befindet sich [_hier_](/Help/_Sidebar.md)
 
 # Weitere Vorschläge:
 <ul>        
