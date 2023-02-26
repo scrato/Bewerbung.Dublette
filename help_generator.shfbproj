@@ -32,7 +32,7 @@
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <HelpTitle>Syntax f&amp;#252%3br das Projekt Dublette.Core</HelpTitle>
     <HelpFileVersion>1.0.0.0</HelpFileVersion>
-    <NamingMethod>Guid</NamingMethod>
+    <NamingMethod>MemberName</NamingMethod>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <RootNamespaceContainer>False</RootNamespaceContainer>
     <NamespaceGrouping>False</NamespaceGrouping>
@@ -48,6 +48,7 @@
 <NamespaceSummaryItem name="Dublette.Core.Interfaces" isDocumented="True" xmlns="">Enthält alle Schnittstellendateien des Projektes</NamespaceSummaryItem>
 <NamespaceSummaryItem name="Dublette.Core.Prefilter" isDocumented="True" xmlns="">Enthält die Logik zur Vorfilterung von Dateien innerhalb eines Projektes</NamespaceSummaryItem>
 <NamespaceSummaryItem name="Dublette.Core.Wrapper" isDocumented="True" xmlns="">Enthält Wrapperklassen um externe Komponenten zu kapseln</NamespaceSummaryItem></NamespaceSummaries>
+    <VisibleItems>InheritedMembers, Protected, ProtectedInternalAsProtected, NonBrowsable</VisibleItems>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
