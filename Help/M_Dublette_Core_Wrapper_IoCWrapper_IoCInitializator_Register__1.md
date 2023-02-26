@@ -6,7 +6,7 @@ Registriert einen einzelnen Typ im IoC-Container, damit dieser resolved werden k
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Wrapper">Dublette.Core.Wrapper</a>  
+**Namensraum:** <a href="N_Dublette_Core_Wrapper.md">Dublette.Core.Wrapper</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -40,6 +40,6 @@ member Register : unit -> unit  when 'T : not struct
 
 
 #### Referenz
-<a href="T_Dublette_Core_Wrapper_IoCWrapper_IoCInitializator">IoCWrapper.IoCInitializator Klasse</a>  
-<a href="Overload_Dublette_Core_Wrapper_IoCWrapper_IoCInitializator_Register">Register Überladung</a>  
-<a href="N_Dublette_Core_Wrapper">Dublette.Core.Wrapper Namensraum</a>  
+<a href="T_Dublette_Core_Wrapper_IoCWrapper_IoCInitializator.md">IoCWrapper.IoCInitializator Klasse</a>  
+<a href="Overload_Dublette_Core_Wrapper_IoCWrapper_IoCInitializator_Register.md">Register Überladung</a>  
+<a href="N_Dublette_Core_Wrapper.md">Dublette.Core.Wrapper Namensraum</a>  

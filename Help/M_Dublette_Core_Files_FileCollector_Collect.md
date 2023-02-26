@@ -1,12 +1,12 @@
 # Collect Methode
 
 
-Sammelt alle Dateien in dem übergebenen Pfad und gibt sie als Auflistung von <a href="T_Dublette_Core_Interfaces_IFileInfo">IFileInfo</a> zurück
+Sammelt alle Dateien in dem übergebenen Pfad und gibt sie als Auflistung von <a href="T_Dublette_Core_Interfaces_IFileInfo.md">IFileInfo</a> zurück
 
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Files">Dublette.Core.Files</a>  
+**Namensraum:** <a href="N_Dublette_Core_Files.md">Dublette.Core.Files</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -42,16 +42,16 @@ override Collect :
 <dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd>Der Pfad, innerhalb dessen die Dateien gesammelt werden sollen</dd></dl>
 
 #### Rückgabewert
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IFileInfo">IFileInfo</a>)  
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IFileInfo.md">IFileInfo</a>)  
 \[Missing &lt;returns&gt; documentation for "M:Dublette.Core.Files.FileCollector.Collect(System.String)"\]
 
 #### Implementiert
-<a href="M_Dublette_Core_Interfaces_IFileCollector_Collect">IFileCollector.Collect(String)</a>  
+<a href="M_Dublette_Core_Interfaces_IFileCollector_Collect.md">IFileCollector.Collect(String)</a>  
 
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="T_Dublette_Core_Files_FileCollector">FileCollector Klasse</a>  
-<a href="N_Dublette_Core_Files">Dublette.Core.Files Namensraum</a>  
+<a href="T_Dublette_Core_Files_FileCollector.md">FileCollector Klasse</a>  
+<a href="N_Dublette_Core_Files.md">Dublette.Core.Files Namensraum</a>  

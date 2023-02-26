@@ -6,7 +6,7 @@ Ruft den Bau der Dublettenprüfung auf
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core">Dublette.Core</a>  
+**Namensraum:** <a href="N_Dublette_Core.md">Dublette.Core</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -30,12 +30,12 @@ static member Build : unit -> DublettenprüfungFactory
 
 
 #### Rückgabewert
-<a href="T_Dublette_Core_DublettenprüfungFactory">DublettenprüfungFactory</a>  
+<a href="T_Dublette_Core_DublettenprüfungFactory.md">DublettenprüfungFactory</a>  
 \[Missing &lt;returns&gt; documentation for "M:Dublette.Core.DublettenprüfungFactory.Build"\]
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="T_Dublette_Core_DublettenprüfungFactory">DublettenprüfungFactory Klasse</a>  
-<a href="N_Dublette_Core">Dublette.Core Namensraum</a>  
+<a href="T_Dublette_Core_DublettenprüfungFactory.md">DublettenprüfungFactory Klasse</a>  
+<a href="N_Dublette_Core.md">Dublette.Core Namensraum</a>  

@@ -6,7 +6,7 @@ Sammelt die Kandidaten anhand des übergebenen Pfades und mittels des übergeben
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core">Dublette.Core</a>  
+**Namensraum:** <a href="N_Dublette_Core.md">Dublette.Core</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -44,20 +44,20 @@ override Sammle_Kandidaten :
 
 
 #### Parameter
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd>Der Pfad, aus dem die Dateien ermittelt werden sollen</dd><dt>  <a href="T_Dublette_Core_Enums_Vergleichsmodi">Vergleichsmodi</a></dt><dd>Der Vergleichsmodus der ausgeführt werden soll</dd></dl>
+<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd>Der Pfad, aus dem die Dateien ermittelt werden sollen</dd><dt>  <a href="T_Dublette_Core_Enums_Vergleichsmodi.md">Vergleichsmodi</a></dt><dd>Der Vergleichsmodus der ausgeführt werden soll</dd></dl>
 
 #### Rückgabewert
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IDublette">IDublette</a>)  
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IDublette.md">IDublette</a>)  
 \[Missing &lt;returns&gt; documentation for "M:Dublette.Core.Dublettenprüfung.Sammle_Kandidaten(System.String,Dublette.Core.Enums.Vergleichsmodi)"\]
 
 #### Implementiert
-<a href="M_Dublette_Core_Interfaces_IDublettenprüfung_Sammle_Kandidaten_1">IDublettenprüfung.Sammle_Kandidaten(String, Vergleichsmodi)</a>  
+<a href="M_Dublette_Core_Interfaces_IDublettenprüfung_Sammle_Kandidaten_1.md">IDublettenprüfung.Sammle_Kandidaten(String, Vergleichsmodi)</a>  
 
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="T_Dublette_Core_Dublettenprüfung">Dublettenprüfung Klasse</a>  
-<a href="Overload_Dublette_Core_Dublettenprüfung_Sammle_Kandidaten">Sammle_Kandidaten Überladung</a>  
-<a href="N_Dublette_Core">Dublette.Core Namensraum</a>  
+<a href="T_Dublette_Core_Dublettenprüfung.md">Dublettenprüfung Klasse</a>  
+<a href="Overload_Dublette_Core_Dublettenprüfung_Sammle_Kandidaten.md">Sammle_Kandidaten Überladung</a>  
+<a href="N_Dublette_Core.md">Dublette.Core Namensraum</a>  

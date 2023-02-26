@@ -6,7 +6,7 @@ Prüft, ob die Auflistung mehr als *skipAmount* Elemente enthält
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Extensions">Dublette.Core.Extensions</a>  
+**Namensraum:** <a href="N_Dublette_Core_Extensions.md">Dublette.Core.Extensions</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -66,5 +66,5 @@ Erweiterungsmethoden (C# Programmierhandbuch)</a>.
 
 
 #### Referenz
-<a href="T_Dublette_Core_Extensions_EnumerableExtensions">EnumerableExtensions Klasse</a>  
-<a href="N_Dublette_Core_Extensions">Dublette.Core.Extensions Namensraum</a>  
+<a href="T_Dublette_Core_Extensions_EnumerableExtensions.md">EnumerableExtensions Klasse</a>  
+<a href="N_Dublette_Core_Extensions.md">Dublette.Core.Extensions Namensraum</a>  

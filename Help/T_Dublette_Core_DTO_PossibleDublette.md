@@ -1,12 +1,12 @@
 # PossibleDublette Klasse
 
 
-Klasse, die Dateidupletten zusammenhält. Wird für die Vorauswahl per <a href="T_Dublette_Core_Interfaces_IFilePrefilter">IFilePrefilter</a> als Ergebnismenge genutzt. Enthält weiterhin die Dateinformationen
+Klasse, die Dateidupletten zusammenhält. Wird für die Vorauswahl per <a href="T_Dublette_Core_Interfaces_IFilePrefilter.md">IFilePrefilter</a> als Ergebnismenge genutzt. Enthält weiterhin die Dateinformationen
 
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_DTO">Dublette.Core.DTO</a>  
+**Namensraum:** <a href="N_Dublette_Core_DTO.md">Dublette.Core.DTO</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -31,7 +31,7 @@ type PossibleDublette =
 ```
 
 <table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  PossibleDublette</td></tr>
-<tr><td><strong>Implements</strong></td><td><a href="T_Dublette_Core_Interfaces_IDublette">IDublette</a></td></tr>
+<tr><td><strong>Implements</strong></td><td><a href="T_Dublette_Core_Interfaces_IDublette.md">IDublette</a></td></tr>
 </table>
 
 
@@ -39,17 +39,17 @@ type PossibleDublette =
 ## Konstruktoren
 <table>
 <tr>
-<td><a href="M_Dublette_Core_DTO_PossibleDublette__ctor">PossibleDublette</a></td>
+<td><a href="M_Dublette_Core_DTO_PossibleDublette__ctor.md">PossibleDublette</a></td>
 <td>Instanziert eine neue mögliche Dublette mit übergebenen Dateiinformationen</td></tr>
 </table>
 
 ## Eigenschaften
 <table>
 <tr>
-<td><a href="P_Dublette_Core_DTO_PossibleDublette_Dateipfade">Dateipfade</a></td>
+<td><a href="P_Dublette_Core_DTO_PossibleDublette_Dateipfade.md">Dateipfade</a></td>
 <td>Gibt die Dateipfade zurück, die in den als Dublette gefundenen FileInfos vorhanden sind</td></tr>
 <tr>
-<td><a href="P_Dublette_Core_DTO_PossibleDublette_FileInfos">FileInfos</a></td>
+<td><a href="P_Dublette_Core_DTO_PossibleDublette_FileInfos.md">FileInfos</a></td>
 <td>Die FileInfos die als aktuell mögliche Dublette interpretiert sind</td></tr>
 </table>
 
@@ -57,4 +57,4 @@ type PossibleDublette =
 
 
 #### Referenz
-<a href="N_Dublette_Core_DTO">Dublette.Core.DTO Namensraum</a>  
+<a href="N_Dublette_Core_DTO.md">Dublette.Core.DTO Namensraum</a>  

@@ -1,12 +1,12 @@
 # Create Methode
 
 
-Gibt die Factory zurück um <a href="T_Dublette_Core_Dublettenprüfung">Dublettenprüfung</a> zu erzeugen
+Gibt die Factory zurück um <a href="T_Dublette_Core_Dublettenprüfung.md">Dublettenprüfung</a> zu erzeugen
 
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core">Dublette.Core</a>  
+**Namensraum:** <a href="N_Dublette_Core.md">Dublette.Core</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -30,12 +30,12 @@ static member Create : unit -> DublettenprüfungFactory
 
 
 #### Rückgabewert
-<a href="T_Dublette_Core_DublettenprüfungFactory">DublettenprüfungFactory</a>  
+<a href="T_Dublette_Core_DublettenprüfungFactory.md">DublettenprüfungFactory</a>  
 \[Missing &lt;returns&gt; documentation for "M:Dublette.Core.Dublettenprüfung.Create"\]
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="T_Dublette_Core_Dublettenprüfung">Dublettenprüfung Klasse</a>  
-<a href="N_Dublette_Core">Dublette.Core Namensraum</a>  
+<a href="T_Dublette_Core_Dublettenprüfung.md">Dublettenprüfung Klasse</a>  
+<a href="N_Dublette_Core.md">Dublette.Core Namensraum</a>  

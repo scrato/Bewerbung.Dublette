@@ -6,7 +6,7 @@ Die eigentliche Logiklasse zur Dublettenprüfung
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core">Dublette.Core</a>  
+**Namensraum:** <a href="N_Dublette_Core.md">Dublette.Core</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -31,7 +31,7 @@ type Dublettenprüfung =
 ```
 
 <table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Dublettenprüfung</td></tr>
-<tr><td><strong>Implements</strong></td><td><a href="T_Dublette_Core_Interfaces_IDublettenprüfung">IDublettenprüfung</a></td></tr>
+<tr><td><strong>Implements</strong></td><td><a href="T_Dublette_Core_Interfaces_IDublettenprüfung.md">IDublettenprüfung</a></td></tr>
 </table>
 
 
@@ -39,16 +39,16 @@ type Dublettenprüfung =
 ## Methoden
 <table>
 <tr>
-<td><a href="M_Dublette_Core_Dublettenprüfung_Create">Create</a></td>
+<td><a href="M_Dublette_Core_Dublettenprüfung_Create.md">Create</a></td>
 <td>Gibt die Factory zurück um Dublettenprüfung zu erzeugen</td></tr>
 <tr>
-<td><a href="M_Dublette_Core_Dublettenprüfung_Prüfe_Kandidaten">Prüfe_Kandidaten</a></td>
+<td><a href="M_Dublette_Core_Dublettenprüfung_Prüfe_Kandidaten.md">Prüfe_Kandidaten</a></td>
 <td>Prüft die Dublettenkandidaten auf MD5-Gleichheit</td></tr>
 <tr>
-<td><a href="M_Dublette_Core_Dublettenprüfung_Sammle_Kandidaten">Sammle_Kandidaten(String)</a></td>
-<td>Sammelt die Kandidaten anhand des übergebenen Pfades und mittels des Standardvergleichsmodus <a href="T_Dublette_Core_Enums_Vergleichsmodi">Größe_und_Name</a></td></tr>
+<td><a href="M_Dublette_Core_Dublettenprüfung_Sammle_Kandidaten.md">Sammle_Kandidaten(String)</a></td>
+<td>Sammelt die Kandidaten anhand des übergebenen Pfades und mittels des Standardvergleichsmodus <a href="T_Dublette_Core_Enums_Vergleichsmodi.md">Größe_und_Name</a></td></tr>
 <tr>
-<td><a href="M_Dublette_Core_Dublettenprüfung_Sammle_Kandidaten_1">Sammle_Kandidaten(String, Vergleichsmodi)</a></td>
+<td><a href="M_Dublette_Core_Dublettenprüfung_Sammle_Kandidaten_1.md">Sammle_Kandidaten(String, Vergleichsmodi)</a></td>
 <td>Sammelt die Kandidaten anhand des übergebenen Pfades und mittels des übergebenen Vergleichsmodus</td></tr>
 </table>
 
@@ -56,4 +56,4 @@ type Dublettenprüfung =
 
 
 #### Referenz
-<a href="N_Dublette_Core">Dublette.Core Namensraum</a>  
+<a href="N_Dublette_Core.md">Dublette.Core Namensraum</a>  

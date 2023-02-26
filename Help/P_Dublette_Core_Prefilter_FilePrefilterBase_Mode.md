@@ -6,7 +6,7 @@ Der Vergleichsmodus, den der Prefilter implementiert
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Prefilter">Dublette.Core.Prefilter</a>  
+**Namensraum:** <a href="N_Dublette_Core_Prefilter.md">Dublette.Core.Prefilter</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -34,15 +34,15 @@ override Mode : Vergleichsmodi with get
 
 
 #### Eigenschaftswert
-<a href="T_Dublette_Core_Enums_Vergleichsmodi">Vergleichsmodi</a>
+<a href="T_Dublette_Core_Enums_Vergleichsmodi.md">Vergleichsmodi</a>
 
 #### Implementiert
-<a href="P_Dublette_Core_Interfaces_IFilePrefilter_Mode">IFilePrefilter.Mode</a>  
+<a href="P_Dublette_Core_Interfaces_IFilePrefilter_Mode.md">IFilePrefilter.Mode</a>  
 
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="T_Dublette_Core_Prefilter_FilePrefilterBase">FilePrefilterBase Klasse</a>  
-<a href="N_Dublette_Core_Prefilter">Dublette.Core.Prefilter Namensraum</a>  
+<a href="T_Dublette_Core_Prefilter_FilePrefilterBase.md">FilePrefilterBase Klasse</a>  
+<a href="N_Dublette_Core_Prefilter.md">Dublette.Core.Prefilter Namensraum</a>  

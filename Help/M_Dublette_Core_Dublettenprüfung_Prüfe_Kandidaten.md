@@ -6,7 +6,7 @@ Prüft die Dublettenkandidaten auf MD5-Gleichheit
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core">Dublette.Core</a>  
+**Namensraum:** <a href="N_Dublette_Core.md">Dublette.Core</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -39,19 +39,19 @@ override Prüfe_Kandidaten :
 
 
 #### Parameter
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_Dublette_Core_Interfaces_IDublette">IDublette</a>)</dt><dd>\[Missing &lt;param name="kandidaten"/&gt; documentation for "M:Dublette.Core.Dublettenprüfung.Prüfe_Kandidaten(System.Collections.Generic.IEnumerable{Dublette.Core.Interfaces.IDublette})"\]</dd></dl>
+<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_Dublette_Core_Interfaces_IDublette.md">IDublette</a>)</dt><dd>\[Missing &lt;param name="kandidaten"/&gt; documentation for "M:Dublette.Core.Dublettenprüfung.Prüfe_Kandidaten(System.Collections.Generic.IEnumerable{Dublette.Core.Interfaces.IDublette})"\]</dd></dl>
 
 #### Rückgabewert
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IDublette">IDublette</a>)  
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IDublette.md">IDublette</a>)  
 \[Missing &lt;returns&gt; documentation for "M:Dublette.Core.Dublettenprüfung.Prüfe_Kandidaten(System.Collections.Generic.IEnumerable{Dublette.Core.Interfaces.IDublette})"\]
 
 #### Implementiert
-<a href="M_Dublette_Core_Interfaces_IDublettenprüfung_Prüfe_Kandidaten">IDublettenprüfung.Prüfe_Kandidaten(IEnumerable(IDublette))</a>  
+<a href="M_Dublette_Core_Interfaces_IDublettenprüfung_Prüfe_Kandidaten.md">IDublettenprüfung.Prüfe_Kandidaten(IEnumerable(IDublette))</a>  
 
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="T_Dublette_Core_Dublettenprüfung">Dublettenprüfung Klasse</a>  
-<a href="N_Dublette_Core">Dublette.Core Namensraum</a>  
+<a href="T_Dublette_Core_Dublettenprüfung.md">Dublettenprüfung Klasse</a>  
+<a href="N_Dublette_Core.md">Dublette.Core Namensraum</a>  

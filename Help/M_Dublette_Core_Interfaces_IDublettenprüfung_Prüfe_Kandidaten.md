@@ -6,7 +6,7 @@ Prüft die als mögliche Dublette gefundenen Kandidaten und vergleicht diese mit
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Interfaces">Dublette.Core.Interfaces</a>  
+**Namensraum:** <a href="N_Dublette_Core_Interfaces.md">Dublette.Core.Interfaces</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -36,15 +36,15 @@ abstract Prüfe_Kandidaten :
 
 
 #### Parameter
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_Dublette_Core_Interfaces_IDublette">IDublette</a>)</dt><dd>Die potentiell identischen Dubletten</dd></dl>
+<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_Dublette_Core_Interfaces_IDublette.md">IDublette</a>)</dt><dd>Die potentiell identischen Dubletten</dd></dl>
 
 #### Rückgabewert
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IDublette">IDublette</a>)  
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IDublette.md">IDublette</a>)  
 Die Liste von Dubletten, die per Prüfung noch als eindeutig identifiziert wurden.
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="T_Dublette_Core_Interfaces_IDublettenprüfung">IDublettenprüfung Schnittstelle</a>  
-<a href="N_Dublette_Core_Interfaces">Dublette.Core.Interfaces Namensraum</a>  
+<a href="T_Dublette_Core_Interfaces_IDublettenprüfung.md">IDublettenprüfung Schnittstelle</a>  
+<a href="N_Dublette_Core_Interfaces.md">Dublette.Core.Interfaces Namensraum</a>  

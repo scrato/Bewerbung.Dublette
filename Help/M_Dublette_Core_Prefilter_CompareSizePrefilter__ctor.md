@@ -6,7 +6,7 @@ Erzeugt eine neue Instanz für den Größenvergleichsfilter
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Prefilter">Dublette.Core.Prefilter</a>  
+**Namensraum:** <a href="N_Dublette_Core_Prefilter.md">Dublette.Core.Prefilter</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -33,5 +33,5 @@ new : unit -> CompareSizePrefilter
 
 
 #### Referenz
-<a href="T_Dublette_Core_Prefilter_CompareSizePrefilter">CompareSizePrefilter Klasse</a>  
-<a href="N_Dublette_Core_Prefilter">Dublette.Core.Prefilter Namensraum</a>  
+<a href="T_Dublette_Core_Prefilter_CompareSizePrefilter.md">CompareSizePrefilter Klasse</a>  
+<a href="N_Dublette_Core_Prefilter.md">Dublette.Core.Prefilter Namensraum</a>  

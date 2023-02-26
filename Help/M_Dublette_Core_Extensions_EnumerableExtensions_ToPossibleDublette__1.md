@@ -6,7 +6,7 @@ Wandelt eine Gruppe von Gruppierungskriterium X und Listen von Dateiinfos zu ein
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Extensions">Dublette.Core.Extensions</a>  
+**Namensraum:** <a href="N_Dublette_Core_Extensions.md">Dublette.Core.Extensions</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -42,17 +42,17 @@ static member ToPossibleDublette :
 
 
 #### Parameter
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.linq.igrouping-2" target="_blank" rel="noopener noreferrer">IGrouping</a>(T, <a href="T_Dublette_Core_Interfaces_IFileInfo">IFileInfo</a>))</dt><dd /></dl>
+<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.linq.igrouping-2" target="_blank" rel="noopener noreferrer">IGrouping</a>(T, <a href="T_Dublette_Core_Interfaces_IFileInfo.md">IFileInfo</a>))</dt><dd /></dl>
 
 #### Typenparameter
 <dl><dt /><dd /></dl>
 
 #### Rückgabewert
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_DTO_PossibleDublette">PossibleDublette</a>)  
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_DTO_PossibleDublette.md">PossibleDublette</a>)  
 \[Missing &lt;returns&gt; documentation for "M:Dublette.Core.Extensions.EnumerableExtensions.ToPossibleDublette``1(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,Dublette.Core.Interfaces.IFileInfo}})"\]
 
 #### Verwendungshinweise
-In Visual Basic und C# können Sie diese Methode als Instanzmethode eines beliebigen Objektes vom Typ <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.linq.igrouping-2" target="_blank" rel="noopener noreferrer">IGrouping</a>(T, <a href="T_Dublette_Core_Interfaces_IFileInfo">IFileInfo</a>)) aufrufen. Wenn Sie die Instanzmethodensyntax beim Methodenaufruf anwenden, lassen Sie den ersten Parameter weg. Für weitere Informationen siehe <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic und C# können Sie diese Methode als Instanzmethode eines beliebigen Objektes vom Typ <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.linq.igrouping-2" target="_blank" rel="noopener noreferrer">IGrouping</a>(T, <a href="T_Dublette_Core_Interfaces_IFileInfo.md">IFileInfo</a>)) aufrufen. Wenn Sie die Instanzmethodensyntax beim Methodenaufruf anwenden, lassen Sie den ersten Parameter weg. Für weitere Informationen siehe <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
 Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
 
@@ -62,5 +62,5 @@ Erweiterungsmethoden (C# Programmierhandbuch)</a>.
 
 
 #### Referenz
-<a href="T_Dublette_Core_Extensions_EnumerableExtensions">EnumerableExtensions Klasse</a>  
-<a href="N_Dublette_Core_Extensions">Dublette.Core.Extensions Namensraum</a>  
+<a href="T_Dublette_Core_Extensions_EnumerableExtensions.md">EnumerableExtensions Klasse</a>  
+<a href="N_Dublette_Core_Extensions.md">Dublette.Core.Extensions Namensraum</a>  

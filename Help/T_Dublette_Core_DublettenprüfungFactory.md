@@ -1,12 +1,12 @@
 # DublettenprüfungFactory Klasse
 
 
-Factorymethdode um eine Instanz vom Typ <a href="T_Dublette_Core_Interfaces_IDublettenprüfung">IDublettenprüfung</a> zu erzeugen
+Factorymethdode um eine Instanz vom Typ <a href="T_Dublette_Core_Interfaces_IDublettenprüfung.md">IDublettenprüfung</a> zu erzeugen
 
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core">Dublette.Core</a>  
+**Namensraum:** <a href="N_Dublette_Core.md">Dublette.Core</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -34,21 +34,21 @@ type DublettenprüfungFactory = class end
 ## Methoden
 <table>
 <tr>
-<td><a href="M_Dublette_Core_DublettenprüfungFactory_Build">Build</a></td>
+<td><a href="M_Dublette_Core_DublettenprüfungFactory_Build.md">Build</a></td>
 <td>Ruft den Bau der Dublettenprüfung auf</td></tr>
 <tr>
-<td><a href="M_Dublette_Core_DublettenprüfungFactory_Create">Create</a></td>
+<td><a href="M_Dublette_Core_DublettenprüfungFactory_Create.md">Create</a></td>
 <td>Erzeugt das konfigurierte Ergebnisobjekt</td></tr>
 <tr>
-<td><a href="M_Dublette_Core_DublettenprüfungFactory_OverrideAlgorithm__1">OverrideAlgorithm(T)</a></td>
+<td><a href="M_Dublette_Core_DublettenprüfungFactory_OverrideAlgorithm__1.md">OverrideAlgorithm(T)</a></td>
 <td>Überschreibt einen übergebenen Algorithmus</td></tr>
 <tr>
-<td><a href="M_Dublette_Core_DublettenprüfungFactory_OverrideFileCollector">OverrideFileCollector</a></td>
-<td>Überschreibt den Ermittler für Dateipfade Default: <a href="T_Dublette_Core_Files_FileCollector">FileCollector</a></td></tr>
+<td><a href="M_Dublette_Core_DublettenprüfungFactory_OverrideFileCollector.md">OverrideFileCollector</a></td>
+<td>Überschreibt den Ermittler für Dateipfade Default: <a href="T_Dublette_Core_Files_FileCollector.md">FileCollector</a></td></tr>
 </table>
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="N_Dublette_Core">Dublette.Core Namensraum</a>  
+<a href="N_Dublette_Core.md">Dublette.Core Namensraum</a>  

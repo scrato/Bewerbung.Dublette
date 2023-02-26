@@ -6,7 +6,7 @@ Die Größe der Datei
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Interfaces">Dublette.Core.Interfaces</a>  
+**Namensraum:** <a href="N_Dublette_Core_Interfaces.md">Dublette.Core.Interfaces</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -38,5 +38,5 @@ abstract Size : int64 with get
 
 
 #### Referenz
-<a href="T_Dublette_Core_Interfaces_IFileInfo">IFileInfo Schnittstelle</a>  
-<a href="N_Dublette_Core_Interfaces">Dublette.Core.Interfaces Namensraum</a>  
+<a href="T_Dublette_Core_Interfaces_IFileInfo.md">IFileInfo Schnittstelle</a>  
+<a href="N_Dublette_Core_Interfaces.md">Dublette.Core.Interfaces Namensraum</a>  

@@ -1,12 +1,12 @@
 # OverrideFileCollector Methode
 
 
-Überschreibt den Ermittler für Dateipfade Default: <a href="T_Dublette_Core_Files_FileCollector">FileCollector</a>
+Überschreibt den Ermittler für Dateipfade Default: <a href="T_Dublette_Core_Files_FileCollector.md">FileCollector</a>
 
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core">Dublette.Core</a>  
+**Namensraum:** <a href="N_Dublette_Core.md">Dublette.Core</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -37,15 +37,15 @@ member OverrideFileCollector :
 
 
 #### Parameter
-<dl><dt>  <a href="T_Dublette_Core_Interfaces_IFileCollector">IFileCollector</a></dt><dd>Der konkrete FileCollector, welcher die Dateien sammelt</dd></dl>
+<dl><dt>  <a href="T_Dublette_Core_Interfaces_IFileCollector.md">IFileCollector</a></dt><dd>Der konkrete FileCollector, welcher die Dateien sammelt</dd></dl>
 
 #### Rückgabewert
-<a href="T_Dublette_Core_DublettenprüfungFactory">DublettenprüfungFactory</a>  
+<a href="T_Dublette_Core_DublettenprüfungFactory.md">DublettenprüfungFactory</a>  
 \[Missing &lt;returns&gt; documentation for "M:Dublette.Core.DublettenprüfungFactory.OverrideFileCollector(Dublette.Core.Interfaces.IFileCollector)"\]
 
 ## Siehe auch
 
 
 #### Referenz
-<a href="T_Dublette_Core_DublettenprüfungFactory">DublettenprüfungFactory Klasse</a>  
-<a href="N_Dublette_Core">Dublette.Core Namensraum</a>  
+<a href="T_Dublette_Core_DublettenprüfungFactory.md">DublettenprüfungFactory Klasse</a>  
+<a href="N_Dublette_Core.md">Dublette.Core Namensraum</a>  

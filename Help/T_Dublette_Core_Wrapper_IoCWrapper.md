@@ -6,7 +6,7 @@ Wrapperklasse für den aktuell genutzten IoC-Container. Derzeit: Autofac
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Wrapper">Dublette.Core.Wrapper</a>  
+**Namensraum:** <a href="N_Dublette_Core_Wrapper.md">Dublette.Core.Wrapper</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -34,17 +34,17 @@ type IoCWrapper = class end
 ## Konstruktoren
 <table>
 <tr>
-<td><a href="M_Dublette_Core_Wrapper_IoCWrapper__ctor">IoCWrapper</a></td>
+<td><a href="M_Dublette_Core_Wrapper_IoCWrapper__ctor.md">IoCWrapper</a></td>
 <td>Erzeugt einen neuen IoC-Wrapper mittels einer vorinitialisierten Initializatorklasse</td></tr>
 </table>
 
 ## Methoden
 <table>
 <tr>
-<td><a href="M_Dublette_Core_Wrapper_IoCWrapper_Resolve__1">Resolve(T)()</a></td>
+<td><a href="M_Dublette_Core_Wrapper_IoCWrapper_Resolve__1.md">Resolve(T)()</a></td>
 <td>Baut mittels des Autofac-Containers ein Objekt zusammen</td></tr>
 <tr>
-<td><a href="M_Dublette_Core_Wrapper_IoCWrapper_Resolve__1_1">Resolve(T)(String)</a></td>
+<td><a href="M_Dublette_Core_Wrapper_IoCWrapper_Resolve__1_1.md">Resolve(T)(String)</a></td>
 <td>Baut mittels des Autofac-Containers mit dem übergebenen Key den übergebenen Typ zusammen</td></tr>
 </table>
 
@@ -52,4 +52,4 @@ type IoCWrapper = class end
 
 
 #### Referenz
-<a href="N_Dublette_Core_Wrapper">Dublette.Core.Wrapper Namensraum</a>  
+<a href="N_Dublette_Core_Wrapper.md">Dublette.Core.Wrapper Namensraum</a>  

@@ -1,12 +1,12 @@
 # Vergleichsmodi Enumeration
 
 
-Die möglichen Modis um Dateien vorzufiltern, bevor diese Ergebnismenge in den Hashvergleich gegeben wird. Wird von <a href="T_Dublette_Core_Interfaces_IFilePrefilter">IFilePrefilter</a> mit Logik befüllt
+Die möglichen Modis um Dateien vorzufiltern, bevor diese Ergebnismenge in den Hashvergleich gegeben wird. Wird von <a href="T_Dublette_Core_Interfaces_IFilePrefilter.md">IFilePrefilter</a> mit Logik befüllt
 
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Enums">Dublette.Core.Enums</a>  
+**Namensraum:** <a href="N_Dublette_Core_Enums.md">Dublette.Core.Enums</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -44,4 +44,4 @@ type Vergleichsmodi
 
 
 #### Referenz
-<a href="N_Dublette_Core_Enums">Dublette.Core.Enums Namensraum</a>  
+<a href="N_Dublette_Core_Enums.md">Dublette.Core.Enums Namensraum</a>  

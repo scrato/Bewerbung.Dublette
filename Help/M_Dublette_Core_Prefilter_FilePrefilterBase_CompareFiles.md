@@ -6,7 +6,7 @@ Vergleicht die übergebenen Dateiinfos mit dem hinterlegten Filter
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Prefilter">Dublette.Core.Prefilter</a>  
+**Namensraum:** <a href="N_Dublette_Core_Prefilter.md">Dublette.Core.Prefilter</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -39,14 +39,14 @@ override CompareFiles :
 
 
 #### Parameter
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IFileInfo">IFileInfo</a>)</dt><dd>\[Missing &lt;param name="files"/&gt; documentation for "M:Dublette.Core.Prefilter.FilePrefilterBase.CompareFiles(System.Collections.Generic.IReadOnlyCollection{Dublette.Core.Interfaces.IFileInfo})"\]</dd></dl>
+<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IFileInfo.md">IFileInfo</a>)</dt><dd>\[Missing &lt;param name="files"/&gt; documentation for "M:Dublette.Core.Prefilter.FilePrefilterBase.CompareFiles(System.Collections.Generic.IReadOnlyCollection{Dublette.Core.Interfaces.IFileInfo})"\]</dd></dl>
 
 #### Rückgabewert
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IDublette">IDublette</a>)  
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1" target="_blank" rel="noopener noreferrer">IReadOnlyCollection</a>(<a href="T_Dublette_Core_Interfaces_IDublette.md">IDublette</a>)  
 \[Missing &lt;returns&gt; documentation for "M:Dublette.Core.Prefilter.FilePrefilterBase.CompareFiles(System.Collections.Generic.IReadOnlyCollection{Dublette.Core.Interfaces.IFileInfo})"\]
 
 #### Implementiert
-<a href="M_Dublette_Core_Interfaces_IFilePrefilter_CompareFiles">IFilePrefilter.CompareFiles(IReadOnlyCollection(IFileInfo))</a>  
+<a href="M_Dublette_Core_Interfaces_IFilePrefilter_CompareFiles.md">IFilePrefilter.CompareFiles(IReadOnlyCollection(IFileInfo))</a>  
 
 
 ## Ausnahmen
@@ -60,5 +60,5 @@ override CompareFiles :
 
 
 #### Referenz
-<a href="T_Dublette_Core_Prefilter_FilePrefilterBase">FilePrefilterBase Klasse</a>  
-<a href="N_Dublette_Core_Prefilter">Dublette.Core.Prefilter Namensraum</a>  
+<a href="T_Dublette_Core_Prefilter_FilePrefilterBase.md">FilePrefilterBase Klasse</a>  
+<a href="N_Dublette_Core_Prefilter.md">Dublette.Core.Prefilter Namensraum</a>  

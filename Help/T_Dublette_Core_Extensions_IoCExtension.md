@@ -6,7 +6,7 @@ Die Erweiterungsklasse für den IoC-Container um Vergleichsmodus als Enum einhei
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Extensions">Dublette.Core.Extensions</a>  
+**Namensraum:** <a href="N_Dublette_Core_Extensions.md">Dublette.Core.Extensions</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -40,4 +40,4 @@ type IoCExtension = class end
 
 
 #### Referenz
-<a href="N_Dublette_Core_Extensions">Dublette.Core.Extensions Namensraum</a>  
+<a href="N_Dublette_Core_Extensions.md">Dublette.Core.Extensions Namensraum</a>  

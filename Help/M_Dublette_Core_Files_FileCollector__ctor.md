@@ -1,12 +1,12 @@
 # FileCollector Konstruktor
 
 
-Initializes a new instance of the <a href="T_Dublette_Core_Files_FileCollector">FileCollector</a> class
+Initializes a new instance of the <a href="T_Dublette_Core_Files_FileCollector.md">FileCollector</a> class
 
 
 
 ## Definition
-**Namensraum:** <a href="N_Dublette_Core_Files">Dublette.Core.Files</a>  
+**Namensraum:** <a href="N_Dublette_Core_Files.md">Dublette.Core.Files</a>  
 **Assembly:** Dublette.Core (in Dublette.Core.dll) Version: 1.0.0
 
 **C#**
@@ -33,5 +33,5 @@ new : unit -> FileCollector
 
 
 #### Referenz
-<a href="T_Dublette_Core_Files_FileCollector">FileCollector Klasse</a>  
-<a href="N_Dublette_Core_Files">Dublette.Core.Files Namensraum</a>  
+<a href="T_Dublette_Core_Files_FileCollector.md">FileCollector Klasse</a>  
+<a href="N_Dublette_Core_Files.md">Dublette.Core.Files Namensraum</a>  
