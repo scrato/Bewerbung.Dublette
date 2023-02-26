@@ -45,9 +45,7 @@ classDiagram
         
 
 
-# Weitere Schritte
-
-        //Weitere Vorschläge:
+# Weitere Vorschläge:
         //- Zusätzlich zur MD5-Prüfung bei Gleichheit noch einen Binärvergleich ermöglichen (ggf. optional, ebenfalls über Modi) um false positives bei Hashvergleichen auszuschließen
         //- Korrespondierende Async-Methoden damit während die Sammlungen aufgebaut oder validiert wird, im Hauptprogramm weiter gearbeitet werden kann und per await das Hauptprogramm wieder zum Ausführungsfluss zurückkehrt
         //- Implementation von Cancellationtoken um die Prozesse anhaltbar zu machen
