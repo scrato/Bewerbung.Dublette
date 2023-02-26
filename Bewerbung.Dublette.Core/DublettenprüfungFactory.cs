@@ -5,6 +5,9 @@ using Dublette.Core.Wrapper;
 
 namespace Dublette.Core
 {
+    /// <summary>
+    /// Factorymethdode um eine Instanz vom Typ <see cref="IDublettenprüfung"/> zu erzeugen
+    /// </summary>
     public class DublettenprüfungFactory
     {
 
@@ -37,7 +40,7 @@ namespace Dublette.Core
         /// Erzeugt das konfigurierte Ergebnisobjekt
         /// </summary>
         /// <returns></returns>
-        public Dublettenprüfung Create()
+        public IDublettenprüfung Create()
         {
             var ioC = new IoCWrapper(_init);
             return new Dublettenprüfung(ioC);
@@ -70,7 +73,6 @@ namespace Dublette.Core
         /// <summary>
         /// Registriert alle bekannten Algorithmen im UnityContainer
         /// </summary>
-        /// <param name="init"></param>
         private void RegisterDefaultAlgorithms()
         {
             _init.Register<IFilePrefilter, CompareSizePrefilter>(Vergleichsmodi.Größe);
@@ -81,7 +83,6 @@ namespace Dublette.Core
         /// <summary>
         /// Registriert die Klassen zur Sammlung der Dateien
         /// </summary>
-        /// <param name="init"></param>
         private void RegisterDefaultFileCollector()
         {
             _init.Register<IFileCollector, FileCollector>();
@@ -91,7 +92,6 @@ namespace Dublette.Core
         /// <summary>
         /// Registriert die Klassen zur Prüfung der Kandidaten
         /// </summary>
-        /// <param name="init"></param>
         private void RegisterDefaultCandidateChecker()
         {
             _init.Register<ICandidateChecker, MD5CandidateChecker>();

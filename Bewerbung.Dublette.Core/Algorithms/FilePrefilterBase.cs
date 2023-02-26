@@ -18,6 +18,11 @@ namespace Dublette.Core.Algorithms
         /// Die zu überschreibende Methode die ein Filterobjekt zurückgeben soll, nach dem die Ergebnismenge an Dateien gruppiert wird.
         /// </summary>
         protected abstract Func<IFileInfo, Object> Filter { get; }
+
+        /// <summary>
+        /// Erzeugt eine neue Instanz der Filterklasse und setzt den Modus
+        /// </summary>
+        /// <param name="mode"></param>
         protected FilePrefilterBase(Vergleichsmodi mode) { Mode = mode; }
 
         /// <summary>

@@ -4,13 +4,17 @@ using System.Collections.ObjectModel;
 
 namespace Dublette.Core
 {
+
+    /// <summary>
+    /// Erweiterungsmethoden für Operationen auf <see cref="IEnumerable{T}"/> und <see cref="IReadOnlyCollection{T}"/>
+    /// </summary>
     public static class EnumerableExtensions
     {
 
         /// <summary>
         /// Wandelt eine Enumerable-Auflistung in eine ReadOnly-Auflistung um
         /// </summary>
-        /// <param name="list"></param>
+        /// <param name="list">Die Liste, die in eine ReadOnlyCollection verschoben werden soll</param>
         /// <returns></returns>
         public static IReadOnlyCollection<T> ToReadOnly<T>(this IEnumerable<T> list)
         {
@@ -36,7 +40,7 @@ namespace Dublette.Core
         /// <typeparam name="T"></typeparam>
         /// <param name="grouping"></param>
         /// <returns></returns>
-        public static List<PossibleDublette> ToPossibleDublette<T>(this IEnumerable<IGrouping<T, IFileInfo>> grouping)
+        public static IReadOnlyCollection<PossibleDublette> ToPossibleDublette<T>(this IEnumerable<IGrouping<T, IFileInfo>> grouping)
         {
             return grouping.Select(g => new PossibleDublette(g.ToReadOnly())).ToList();
         }

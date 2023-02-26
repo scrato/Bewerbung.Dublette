@@ -8,6 +8,10 @@ namespace Dublette.Core.DTOs
     /// </summary>
     public class PossibleDublette : IDublette
     {
+        /// <summary>
+        /// Instanziert eine neue mögliche Dublette mit übergebenen Dateiinformationen
+        /// </summary>
+        /// <param name="fileInfos">Die Dateiinformationen, die in dem Dublettenobjekt gehalten werden sollen</param>
         public PossibleDublette(IReadOnlyCollection<IFileInfo> fileInfos)
         {
             FileInfos = fileInfos;

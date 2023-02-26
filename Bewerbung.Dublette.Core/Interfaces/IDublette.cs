@@ -6,6 +6,9 @@
     /// </summary>
     public interface IDublette
     {
+        /// <summary>
+        /// Die Auflistung aller Dateipfade die als Dublette erkannt wurden
+        /// </summary>
         IReadOnlyCollection<string> Dateipfade { get; }
     }
 

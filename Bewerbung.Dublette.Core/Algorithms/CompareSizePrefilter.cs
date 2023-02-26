@@ -8,6 +8,10 @@ namespace Dublette.Core.Algorithms
     /// </summary>
     public class CompareSizePrefilter : FilePrefilterBase
     {
+
+        /// <summary>
+        /// Erzeugt eine neue Instanz für den Größenvergleichsfilter
+        /// </summary>
         public CompareSizePrefilter() : base(Vergleichsmodi.Größe) { }
 
 

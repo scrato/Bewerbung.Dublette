@@ -4,7 +4,30 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>Dublettenprüfung Core</Title>
+    <Authors>Michael Will</Authors>
+    <Company>-</Company>
+    <Description>Ein Projekt, mit welchem man einen Dateibaum nach Dubletten prüfen kann.
+Zunächst kann man anhand eines Vergleichsmodus "Größe" oder "Größe und Name" eine Vorfilterung möglicher Ergebnisse ausführen.
+Anschließend können diese vorgefilterten Ergebnisse auch auf Gleichheit mittels MD5-Hashvergleich gebracht werden.</Description>
+    <Copyright>(c) 2023</Copyright>
+    <PackageProjectUrl>https://github.com/scrato/Bewerbung.Dublette</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/scrato/Bewerbung.Dublette</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.5.0" />

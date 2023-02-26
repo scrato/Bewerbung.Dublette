@@ -9,8 +9,14 @@ namespace Dublette.Core.Enums
     /// </summary>
     public enum Vergleichsmodi
     {
+        /// <summary>
+        /// Sammelt alle Dateien mit einer gleichen Dateigröße, deren Dateinamen identisch sind
+        /// </summary>
         [Description("Größe und Name")]
         Größe_und_Name,
+        /// <summary>
+        /// Sammelt alle Dateien mit einer gleichen Dateigröße
+        /// </summary>
         [Description("Größe")]
         Größe
     }

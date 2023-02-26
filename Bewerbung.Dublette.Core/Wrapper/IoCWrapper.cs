@@ -8,8 +8,12 @@ namespace Dublette.Core.Wrapper
     /// </summary>
     public class IoCWrapper
     {
-        private IContainer _container;
+        private readonly IContainer _container;
 
+        /// <summary>
+        /// Erzeugt einen neuen IoC-Wrapper mittels einer vorinitialisierten Initializatorklasse
+        /// </summary>
+        /// <param name="initMethod">Die Klasse, die die bereits registrierten Containerinformationen enthält</param>
         public IoCWrapper(IoCInitializator initMethod) { _container = initMethod.Build(); }
 
 
@@ -42,6 +46,9 @@ namespace Dublette.Core.Wrapper
         {
             private readonly ContainerBuilder _builder;
 
+            /// <summary>
+            /// ERzeugt eine neue Klasse zur Registrierung von Objekten im IoC-Container
+            /// </summary>
             public IoCInitializator() { _builder = new ContainerBuilder(); }
 
 

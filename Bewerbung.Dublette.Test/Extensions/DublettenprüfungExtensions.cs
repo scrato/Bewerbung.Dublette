@@ -1,4 +1,5 @@
 ﻿using Dublette.Core;
+using Dublette.Core.Interfaces;
 using Dublette.Test.Mock;
 
 namespace Dublette.Test.Extensions
@@ -11,7 +12,7 @@ namespace Dublette.Test.Extensions
         /// </summary>
         /// <param name="files"></param>
         /// <returns></returns>
-        public static Dublettenprüfung ToDefaultDublettenprüfung(this IEnumerable<MockFileInfo> files)
+        public static IDublettenprüfung ToDefaultDublettenprüfung(this IEnumerable<MockFileInfo> files)
         {
             var mockFileCollector = new MockFileCollector(files);
             return DublettenprüfungFactory.Build()
