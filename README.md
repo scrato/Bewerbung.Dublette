@@ -69,6 +69,6 @@ AUSGABE:
     <li> Korrespondierende Async-Methoden damit während die Sammlungen aufgebaut oder validiert wird, im Hauptprogramm weiter gearbeitet werden kann und per await das Hauptprogramm wieder zum Ausführungsfluss zurückkehrt </li>
     <li> Implementation von Cancellationtoken um die Prozesse anhaltbar zu machen </li>
     <li> Vergleichsmodi als Flags umsetzen, da es ja vll später erweitert werden kann. So könnte ich ein Flag aus Size / Name / Drittem Attribut in beliebiger Reihenfolge umsetzen </li>
-    <li>Func<string> oder Func<IStatusProgress> in Factory übergeben, damit bei der Prüfung (die ja länger dauern kann) ein Status mitgegeben wird </li>
+    <li>Func&lt;string&gt; oder Func&lt;IStatusProgress&gt; in Factory übergeben, damit bei der Prüfung (die ja länger dauern kann) ein Status mitgegeben wird </li>
     <li> Umlaute im Interface vermeiden </li>
 </ul>
