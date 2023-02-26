@@ -1,7 +1,7 @@
 ﻿using Dublette.Core.Enums;
 using Dublette.Core.Interfaces;
 
-namespace Dublette.Core.Algorithms
+namespace Dublette.Core.Prefilter
 {
     /// <summary>
     /// Der Prefilter, der nach der Dateigröße gruppiert um als Dubletten gefunden zu werden

@@ -1,4 +1,5 @@
 using Dublette.Core;
+using Dublette.Core.Files;
 
 namespace Dublette.Test
 {

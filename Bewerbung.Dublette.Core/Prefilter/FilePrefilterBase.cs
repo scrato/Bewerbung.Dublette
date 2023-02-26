@@ -1,7 +1,8 @@
 ﻿using Dublette.Core.Enums;
+using Dublette.Core.Extensions;
 using Dublette.Core.Interfaces;
 
-namespace Dublette.Core.Algorithms
+namespace Dublette.Core.Prefilter
 {
     /// <summary>
     /// Basisklasse, unter welcher die Filter implementiert werden, die zur Vorermittlung potentieller Dubletten genutzt werden sollen
@@ -17,7 +18,7 @@ namespace Dublette.Core.Algorithms
         /// <summary>
         /// Die zu überschreibende Methode die ein Filterobjekt zurückgeben soll, nach dem die Ergebnismenge an Dateien gruppiert wird.
         /// </summary>
-        protected abstract Func<IFileInfo, Object> Filter { get; }
+        protected abstract Func<IFileInfo, object> Filter { get; }
 
         /// <summary>
         /// Erzeugt eine neue Instanz der Filterklasse und setzt den Modus

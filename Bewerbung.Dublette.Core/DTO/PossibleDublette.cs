@@ -1,6 +1,7 @@
-﻿using Dublette.Core.Interfaces;
+﻿using Dublette.Core.Extensions;
+using Dublette.Core.Interfaces;
 
-namespace Dublette.Core.DTOs
+namespace Dublette.Core.DTO
 {
     /// <summary>
     /// Klasse, die Dateidupletten zusammenhält. Wird für die Vorauswahl per <see cref="IFilePrefilter"/> als Ergebnismenge genutzt.

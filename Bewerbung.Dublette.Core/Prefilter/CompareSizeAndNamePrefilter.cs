@@ -1,7 +1,7 @@
 ﻿using Dublette.Core.Enums;
 using Dublette.Core.Interfaces;
 
-namespace Dublette.Core.Algorithms
+namespace Dublette.Core.Prefilter
 {
     /// <summary>
     /// Die Vorfilterung von potentiellen Dubletten nach Dateinamen und Größe

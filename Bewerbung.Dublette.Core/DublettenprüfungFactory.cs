@@ -1,6 +1,9 @@
-﻿using Dublette.Core.Algorithms;
+﻿using Dublette.Core.CandidateChecker;
 using Dublette.Core.Enums;
+using Dublette.Core.Extensions;
+using Dublette.Core.Files;
 using Dublette.Core.Interfaces;
+using Dublette.Core.Prefilter;
 using Dublette.Core.Wrapper;
 
 namespace Dublette.Core

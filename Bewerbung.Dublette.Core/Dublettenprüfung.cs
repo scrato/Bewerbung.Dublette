@@ -1,4 +1,5 @@
 ﻿using Dublette.Core.Enums;
+using Dublette.Core.Extensions;
 using Dublette.Core.Interfaces;
 using Dublette.Core.Wrapper;
 

@@ -1,4 +1,4 @@
-﻿using Dublette.Core;
+﻿using Dublette.Core.Extensions;
 using Dublette.Core.Interfaces;
 
 namespace Dublette.Test.Mock

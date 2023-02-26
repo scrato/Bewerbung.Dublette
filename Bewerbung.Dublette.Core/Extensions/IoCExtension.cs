@@ -2,7 +2,7 @@
 using Dublette.Core.Interfaces;
 using Dublette.Core.Wrapper;
 
-namespace Dublette.Core
+namespace Dublette.Core.Extensions
 {
     /// <summary>
     /// Die Erweiterungsklasse für den IoC-Container um Vergleichsmodus als Enum einheitlich zu speichern.

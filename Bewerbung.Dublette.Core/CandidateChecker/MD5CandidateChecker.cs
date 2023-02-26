@@ -1,9 +1,10 @@
-﻿using Dublette.Core.DTOs;
+﻿using Dublette.Core.DTO;
+using Dublette.Core.Extensions;
 using Dublette.Core.Interfaces;
 using System.Collections.Concurrent;
 using System.Security.Cryptography;
 
-namespace Dublette.Core
+namespace Dublette.Core.CandidateChecker
 {
 
     /// <summary>
@@ -31,7 +32,7 @@ namespace Dublette.Core
         /// </summary>
         /// <param name="dubletteToCheck"></param>
         /// <param name="result"></param>
-        private void CheckMD5Items(IDublette dubletteToCheck, ConcurrentBag<IDublette> result)
+        private static void CheckMD5Items(IDublette dubletteToCheck, ConcurrentBag<IDublette> result)
         {
             var existingDubletten = dubletteToCheck.Dateipfade
                 .GroupBy(p => GetMd5(p))
@@ -48,13 +49,11 @@ namespace Dublette.Core
         /// </summary>
         /// <param name="path"></param>
         /// <returns></returns>
-        private string GetMd5(string path)
+        private static string GetMd5(string path)
         {
-            using (var md5 = MD5.Create())
-            using (var fileStr = new FileStream(path, FileMode.Open))
-            {
-                return Convert.ToHexString(md5.ComputeHash(fileStr));
-            }
+            using var md5 = MD5.Create();
+            using var fileStr = new FileStream(path, FileMode.Open);
+            return Convert.ToHexString(md5.ComputeHash(fileStr));
         }
     }
 }

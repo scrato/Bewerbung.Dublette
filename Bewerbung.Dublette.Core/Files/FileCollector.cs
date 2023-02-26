@@ -1,7 +1,8 @@
-﻿using Dublette.Core.Interfaces;
+﻿using Dublette.Core.Extensions;
+using Dublette.Core.Interfaces;
 using Dublette.Core.Wrapper;
 
-namespace Dublette.Core
+namespace Dublette.Core.Files
 {
     /// <summary>
     /// Klasse, die Dateien aus dem Dateiverzeichnis ermittelt

@@ -1,8 +1,8 @@
-﻿using Dublette.Core.DTOs;
+﻿using Dublette.Core.DTO;
 using Dublette.Core.Interfaces;
 using System.Collections.ObjectModel;
 
-namespace Dublette.Core
+namespace Dublette.Core.Extensions
 {
 
     /// <summary>
