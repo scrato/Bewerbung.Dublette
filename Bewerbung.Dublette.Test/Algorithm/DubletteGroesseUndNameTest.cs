@@ -1,5 +1,5 @@
 using Dublette.Core;
-using Dublette.Interfaces.Enums;
+using Dublette.Core.Enums;
 using Dublette.Test.Extensions;
 using Dublette.Test.Mock;
 

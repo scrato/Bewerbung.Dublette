@@ -11,8 +11,4 @@
     <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Dublette.Interfaces\Dublette.Interfaces.csproj" />
-  </ItemGroup>
-
 </Project>

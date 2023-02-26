@@ -1,11 +1,11 @@
-﻿using Dublette.Interfaces.Enums;
+﻿using Dublette.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dublette.Interfaces.Interfaces
+namespace Dublette.Core.Interfaces
 {
     /// <summary>
     /// Das Interface zur Dublettenprüfung

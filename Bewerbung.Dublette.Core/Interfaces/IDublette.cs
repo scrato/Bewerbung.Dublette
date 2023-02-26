@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dublette.Interfaces.Interfaces
+namespace Dublette.Core.Interfaces
 {
     public interface IDublette
     {

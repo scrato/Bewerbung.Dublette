@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dublette.Interfaces.Enums
+namespace Dublette.Core.Enums
 {
     public enum Vergleichsmodi
     {

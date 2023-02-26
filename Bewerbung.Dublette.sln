@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dublette", "Bewerbung.Dublette\Dublette.csproj", "{083E0DCB-DC9B-4F4F-A0F0-0C58270CB4A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dublette", "Bewerbung.Dublette\Dublette.csproj", "{083E0DCB-DC9B-4F4F-A0F0-0C58270CB4A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dublette.Core", "Bewerbung.Dublette.Core\Dublette.Core.csproj", "{A901645D-2CDC-465E-96C8-41B7C9E996BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dublette.Core", "Bewerbung.Dublette.Core\Dublette.Core.csproj", "{A901645D-2CDC-465E-96C8-41B7C9E996BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dublette.Test", "Bewerbung.Dublette.Test\Dublette.Test.csproj", "{80F5699A-E37C-4BD5-A287-1CFC8AE9340F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dublette.Interfaces", "Dublette.Interfaces\Dublette.Interfaces.csproj", "{ADCE39E6-A551-4688-BAF1-E32B73B2E3D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dublette.Test", "Bewerbung.Dublette.Test\Dublette.Test.csproj", "{80F5699A-E37C-4BD5-A287-1CFC8AE9340F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{80F5699A-E37C-4BD5-A287-1CFC8AE9340F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80F5699A-E37C-4BD5-A287-1CFC8AE9340F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80F5699A-E37C-4BD5-A287-1CFC8AE9340F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADCE39E6-A551-4688-BAF1-E32B73B2E3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADCE39E6-A551-4688-BAF1-E32B73B2E3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADCE39E6-A551-4688-BAF1-E32B73B2E3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADCE39E6-A551-4688-BAF1-E32B73B2E3D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

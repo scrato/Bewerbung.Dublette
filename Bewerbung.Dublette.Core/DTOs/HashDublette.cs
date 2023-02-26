@@ -1,4 +1,4 @@
-﻿using Dublette.Interfaces.Interfaces;
+﻿using Dublette.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

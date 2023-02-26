@@ -1,4 +1,4 @@
-﻿using Dublette.Interfaces.Interfaces;
+﻿using Dublette.Core.Interfaces;
 
 namespace Dublette.Core.Interfaces
 {

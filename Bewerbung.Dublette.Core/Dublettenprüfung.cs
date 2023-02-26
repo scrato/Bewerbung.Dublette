@@ -1,8 +1,8 @@
 ﻿using Dublette.Core.Algorithms;
 using Dublette.Core.Interfaces;
 using Dublette.Core.Wrapper;
-using Dublette.Interfaces.Enums;
-using Dublette.Interfaces.Interfaces;
+using Dublette.Core.Enums;
+using Dublette.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
