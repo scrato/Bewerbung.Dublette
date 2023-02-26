@@ -8,8 +8,16 @@ using System.Threading.Tasks;
 
 namespace Dublette.Core.Interfaces
 {
-    public interface IAlgorithm
+
+    /// <summary>
+    /// Interface um eine Liste von <see cref="IFileInfo"/>s mit einem übergebenen <see cref="Vergleichsmodi"/> auf 
+    /// mögliche Eindeutigkeit zu gruppieren
+    /// </summary>
+    public interface IFilePrefilter
     {
+        /// <summary>
+        /// Der Modus, den der aktuelle FilePrefilter entspricht
+        /// </summary>
         Vergleichsmodi Mode { get; }
 
         /// <summary>

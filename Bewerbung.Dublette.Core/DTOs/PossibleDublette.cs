@@ -3,7 +3,8 @@
 namespace Dublette.Core.DTOs
 {
     /// <summary>
-    /// Klasse, die Dateidupletten zusammenhält
+    /// Klasse, die Dateidupletten zusammenhält. Wird für die Vorauswahl per <see cref="IFilePrefilter"/> als Ergebnismenge genutzt.
+    /// Enthält weiterhin die Dateinformationen
     /// </summary>
     public class PossibleDublette : IDublette
     {

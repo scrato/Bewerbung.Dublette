@@ -10,13 +10,17 @@ using System.Threading.Tasks;
 
 namespace Dublette.Core
 {
+
+    /// <summary>
+    /// Die Vergleichsklasse, die per MD5-Hash die möglichen Kandidaten auf Gleichheit prüfgt
+    /// </summary>
     internal class MD5CandidateChecker : ICandidateChecker
     {
 
         /// <summary>
         /// Prüft die übergebene Liste
         /// </summary>
-        /// <param name="kandidaten"></param>
+        /// <param name="kandidaten">Die vorgefilterten möglichen Dubletten</param>
         /// <returns></returns>
         public IReadOnlyCollection<IDublette> Check(IEnumerable<IDublette> kandidaten)
         {

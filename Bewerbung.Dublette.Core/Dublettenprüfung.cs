@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace Dublette.Core
 {
+    /// <summary>
+    /// Die eigentliche Logiklasse zur Dublettenprüfung
+    /// </summary>
     public class Dublettenprüfung : IDublettenprüfung
     {
         internal Dublettenprüfung(IoCWrapper wrapper)

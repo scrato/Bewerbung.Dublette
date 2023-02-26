@@ -51,12 +51,12 @@ namespace Dublette.Core
         /// <summary>
         /// Überschreibt einen übergebenen Algorithmus
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="modus"></param>
+        /// <typeparam name="T">Der Typ der Prefilter-Klasse die überschrieben werden soll</typeparam>
+        /// <param name="modus">Der Modus der mit dem übergebenen Typ überschrieben werden soll</param>
         /// <returns></returns>
-        public DublettenprüfungFactory OverrideAlgorithm<T>(Vergleichsmodi modus) where T : class, IAlgorithm
+        public DublettenprüfungFactory OverrideAlgorithm<T>(Vergleichsmodi modus) where T : class, IFilePrefilter
         {
-            _init.Register<IAlgorithm, T>(modus);
+            _init.Register<IFilePrefilter, T>(modus);
             return this;
         }
 
@@ -64,7 +64,7 @@ namespace Dublette.Core
         /// Überschreibt den Ermittler für Dateipfade
         /// Default: <see cref="FileCollector"/>
         /// </summary>
-        /// <param name="fileCollector"></param>
+        /// <param name="fileCollector">Der konkrete FileCollector, welcher die Dateien sammelt</param>
         /// <returns></returns>
         public DublettenprüfungFactory OverrideFileCollector(IFileCollector fileCollector)
         {
@@ -78,8 +78,8 @@ namespace Dublette.Core
         /// <param name="init"></param>
         private void RegisterDefaultAlgorithms()
         {
-            _init.Register<IAlgorithm, CompareSizeAlgorithm>(Vergleichsmodi.Größe);
-            _init.Register<IAlgorithm, CompareSizeAndNameAlgorithm>(Vergleichsmodi.Größe_und_Name);
+            _init.Register<IFilePrefilter, CompareSizePrefilter>(Vergleichsmodi.Größe);
+            _init.Register<IFilePrefilter, CompareSizeAndNamePrefilter>(Vergleichsmodi.Größe_und_Name);
         }
 
 

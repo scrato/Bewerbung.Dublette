@@ -72,7 +72,7 @@ namespace Dublette.Core.Wrapper
             }
 
             /// <summary>
-            /// Registriert einen einzelnen Typ im IoC-Container, damit dieser resolvt werden kann
+            /// Registriert einen einzelnen Typ im IoC-Container, damit dieser resolved werden kann
             /// </summary>
             /// <typeparam name="T"></typeparam>
             public void Register<T>() where T : class
@@ -95,7 +95,7 @@ namespace Dublette.Core.Wrapper
             /// <summary>
             /// Baut den Container aufgrund aller bisher registrierten Typen zusammen
             /// </summary>
-            /// <returns></returns>
+            /// <returns>Der fertig gebaute Autofac-Container, der im IoCWrapper gekapselt wird</returns>
             internal IContainer Build()
             {
                 return _builder.Build();

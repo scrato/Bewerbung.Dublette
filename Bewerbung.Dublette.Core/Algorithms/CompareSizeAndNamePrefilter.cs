@@ -9,17 +9,15 @@ using System.Threading.Tasks;
 
 namespace Dublette.Core.Algorithms
 {
-    internal class CompareSizeAndNameAlgorithm : AlgorithmBase
+    /// <summary>
+    /// Die Vorfilterung von potentiellen Dubletten nach Dateinamen und Größe
+    /// </summary>
+    internal class CompareSizeAndNamePrefilter : FilePrefilterBase
     {
-        private CompareSizeAlgorithm _sizeAlgorithm;
-
-        public CompareSizeAndNameAlgorithm(CompareSizeAlgorithm sizeAlgorithm) : base(Vergleichsmodi.Größe_und_Name)
-        {
-            _sizeAlgorithm = sizeAlgorithm;
-        }
+        public CompareSizeAndNamePrefilter() : base(Vergleichsmodi.Größe_und_Name) {}
 
         /// <summary>
-        /// Es wird auf den Dateinamen gefiltert
+        /// Hier gilt gleicher Dateiname und gleiche Dateigröße
         /// </summary>
         protected override Func<IFileInfo, object> Filter => (f) => new { f.FileName, f.Size };
 

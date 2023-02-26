@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Dublette.Core
 {
+    /// <summary>
+    /// Klasse, die Dateien aus dem Dateiverzeichnis ermittelt
+    /// </summary>
     public class FileCollector : IFileCollector
     {
         /// <summary>

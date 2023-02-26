@@ -9,9 +9,12 @@ using System.Threading.Tasks;
 
 namespace Dublette.Core.Algorithms
 {
-    public class CompareSizeAlgorithm : AlgorithmBase
+    /// <summary>
+    /// Der Prefilter, der nach der Dateigröße gruppiert um als Dubletten gefunden zu werden
+    /// </summary>
+    public class CompareSizePrefilter : FilePrefilterBase
     {
-        public CompareSizeAlgorithm() :base(Vergleichsmodi.Größe) { }
+        public CompareSizePrefilter() :base(Vergleichsmodi.Größe) { }
 
 
         /// <summary>
