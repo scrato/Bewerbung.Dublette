@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Dublette": {
+      "commandName": "Project",
+      "commandLineArgs": "-p \"C:\\temp\""
+    }
+  }
+}

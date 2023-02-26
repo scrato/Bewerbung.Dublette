@@ -40,6 +40,7 @@ namespace Dublette.Core.Interfaces
         //- Korrespondierende Async-Methoden damit während die Sammlungen aufgebaut oder validiert wird, im Hauptprogramm weiter gearbeitet werden kann und per await das Hauptprogramm wieder zum Ausführungsfluss zurückkehrt
         //- Implementation von Cancellationtoken um die Prozesse anhaltbar zu machen
         //- Vergleichsmodi als Flags umsetzen, da es ja vll später erweitert werden kann. So könnte ich ein Flag aus Size / Name / Drittem Attribut in beliebiger Reihenfolge umsetzen
+        //- Func<string> oder Func<IStatusProgress> in Factory übergeben, damit bei der Prüfung (die ja länger dauern kann) ein Status mitgegeben wird
         //- Umlaute im Interface vermeiden
     }
 }
