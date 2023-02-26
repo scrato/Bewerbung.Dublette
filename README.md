@@ -42,8 +42,26 @@ classDiagram
     }
      
 ```
-        
+   
+# Kommandozeilenprogramm:
+Das Programm _Dublette.exe_ kapselt die Logik der Klasse IDublettenprüfung und ist wie folgt definiert:
 
+```
+Eine Kommandozeilenapplikation um Dubletten innerhalb eines Dateisystems zu identifizeren.
+
+SYNTAX:
+    [-fm:FindModus] [-p:Pfad]
+
+Pflichtfeld:
+    -p:Pfad          Der Pfad zur Dateistruktur die nach Dubletten durchsucht werden soll.
+
+Optional:
+    -fm:FindModus    Der Modus, der für die Erstidentfikation von gleichen Dateien genutzt werden soll. [Standard: 'GN' ]
+                FindModus (GN = Größe und Name / G = Größe)
+    
+AUSGABE:
+    Die Rückgabe ist eine Liste von Dubletten, die über den primären FindModus gefunden werden und per MD5-Hashvergleich identisch sind.
+```
 
 # Weitere Vorschläge:
 <ul>        
