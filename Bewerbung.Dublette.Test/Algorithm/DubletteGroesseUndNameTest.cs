@@ -1,4 +1,3 @@
-using Dublette.Core;
 using Dublette.Core.Enums;
 using Dublette.Test.Extensions;
 using Dublette.Test.Mock;
@@ -32,7 +31,7 @@ namespace Dublette.Test.Algorithm
             //Ist dies der Fall => Gleichheit
             foreach (var dublette in resultStandard)
             {
-                Assert.IsTrue(resultGroesse.Any(r => r.Dateipfade.All(p => dublette.Dateipfade.Contains(p))), 
+                Assert.IsTrue(resultGroesse.Any(r => r.Dateipfade.All(p => dublette.Dateipfade.Contains(p))),
                     $"Die Dublettenliste {String.Join('/', dublette.Dateipfade)} ist im Standard aber nicht im Vergleich enthalten");
             }
 

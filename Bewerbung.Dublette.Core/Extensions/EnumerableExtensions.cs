@@ -1,12 +1,6 @@
 ﻿using Dublette.Core.DTOs;
 using Dublette.Core.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dublette.Core
 {
@@ -18,7 +12,7 @@ namespace Dublette.Core
         /// </summary>
         /// <param name="list"></param>
         /// <returns></returns>
-        public static IReadOnlyCollection<T> ToReadOnly<T>(this IEnumerable<T> list) 
+        public static IReadOnlyCollection<T> ToReadOnly<T>(this IEnumerable<T> list)
         {
             return new ReadOnlyCollection<T>(list.ToList());
         }
@@ -42,7 +36,7 @@ namespace Dublette.Core
         /// <typeparam name="T"></typeparam>
         /// <param name="grouping"></param>
         /// <returns></returns>
-        public static List<PossibleDublette> ToPossibleDublette<T>(this IEnumerable<IGrouping<T,IFileInfo>> grouping)
+        public static List<PossibleDublette> ToPossibleDublette<T>(this IEnumerable<IGrouping<T, IFileInfo>> grouping)
         {
             return grouping.Select(g => new PossibleDublette(g.ToReadOnly())).ToList();
         }

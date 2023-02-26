@@ -1,6 +1,4 @@
-﻿using Dublette.Core.Interfaces;
-
-namespace Dublette.Core.Interfaces
+﻿namespace Dublette.Core.Interfaces
 {
     /// <summary>
     /// Klasse, die vorgefilterte <see cref="IDublette"/>n mittels Hashvergleich prüft und eine gefilterte Liste zurückgibt

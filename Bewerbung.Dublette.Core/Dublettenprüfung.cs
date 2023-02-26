@@ -1,12 +1,6 @@
-﻿using Dublette.Core.Algorithms;
+﻿using Dublette.Core.Enums;
 using Dublette.Core.Interfaces;
 using Dublette.Core.Wrapper;
-using Dublette.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dublette.Core
 {
@@ -28,7 +22,7 @@ namespace Dublette.Core
         public static DublettenprüfungFactory Create()
         { return DublettenprüfungFactory.Build(); }
 
-        
+
         /// <summary>
         /// Setzt den IoC-Container 
         /// </summary>
@@ -37,7 +31,7 @@ namespace Dublette.Core
         { this.IoC = wrapper; }
 
 
- 
+
         /// <summary>
         /// Der IoC-Container in dem die Konstruktionsanleitungen für die austauschbaren Objekte enthalten sind
         /// </summary>

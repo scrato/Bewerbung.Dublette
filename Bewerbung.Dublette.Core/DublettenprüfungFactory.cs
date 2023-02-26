@@ -1,12 +1,7 @@
 ﻿using Dublette.Core.Algorithms;
+using Dublette.Core.Enums;
 using Dublette.Core.Interfaces;
 using Dublette.Core.Wrapper;
-using Dublette.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dublette.Core
 {
@@ -68,7 +63,7 @@ namespace Dublette.Core
         /// <returns></returns>
         public DublettenprüfungFactory OverrideFileCollector(IFileCollector fileCollector)
         {
-            _init.RegisterInstance<IFileCollector>(fileCollector); 
+            _init.RegisterInstance<IFileCollector>(fileCollector);
             return this;
         }
 

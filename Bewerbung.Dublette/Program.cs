@@ -1,6 +1,5 @@
 ﻿using Dublette.Core;
 using Dublette.Core.Enums;
-using System.Runtime.CompilerServices;
 using System.Text;
 
 internal class Program

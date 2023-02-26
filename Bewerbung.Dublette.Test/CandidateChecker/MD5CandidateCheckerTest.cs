@@ -1,7 +1,4 @@
 using Dublette.Core;
-using Dublette.Core.Interfaces;
-using Dublette.Core.Enums;
-using Dublette.Test.Extensions;
 using Dublette.Test.Mock;
 
 namespace Dublette.Test.Algorithm
@@ -18,8 +15,8 @@ namespace Dublette.Test.Algorithm
         [TestInitialize]
         public void Setup()
         {
-           _testPath = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}");
-            Directory.CreateDirectory(_testPath);        
+            _testPath = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}");
+            Directory.CreateDirectory(_testPath);
         }
 
         /// <summary>
@@ -84,7 +81,7 @@ namespace Dublette.Test.Algorithm
 
             //Assert
             Assert.IsTrue(candidates.Count == 3, $"Es wurden mehr Dubletten zurückgegeben [{candidates.Count}] als erwartet [3].");
-            foreach (var result in new[] {sameFiles1, sameFiles2, sameFiles3})
+            foreach (var result in new[] { sameFiles1, sameFiles2, sameFiles3 })
             {
                 Assert.IsTrue(candidates.Any(c => c.Dateipfade.All(pfad => result.Contains(pfad))), $"Die Auflistung [{result}] wurde nicht in den MD5 vergleichen gefunden.");
             }

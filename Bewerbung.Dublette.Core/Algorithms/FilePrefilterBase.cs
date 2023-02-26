@@ -1,11 +1,5 @@
-﻿using Dublette.Core.DTOs;
+﻿using Dublette.Core.Enums;
 using Dublette.Core.Interfaces;
-using Dublette.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dublette.Core.Algorithms
 {
@@ -19,7 +13,7 @@ namespace Dublette.Core.Algorithms
         /// Der Vergleichsmodus, den der Prefilter implementiert
         /// </summary>
         public Vergleichsmodi Mode { get; }
-        
+
         /// <summary>
         /// Die zu überschreibende Methode die ein Filterobjekt zurückgeben soll, nach dem die Ergebnismenge an Dateien gruppiert wird.
         /// </summary>
@@ -34,10 +28,10 @@ namespace Dublette.Core.Algorithms
         /// <exception cref="ArgumentNullException"></exception>
         public IReadOnlyCollection<IDublette> CompareFiles(IReadOnlyCollection<IFileInfo> files)
         {
-           if (files == null) throw new ArgumentNullException(nameof(files));
-           return files.GroupBy(f => Filter.Invoke(f))
-                                           .Where(g => g.HasMoreThan(1))
-                                           .ToPossibleDublette();
+            if (files == null) throw new ArgumentNullException(nameof(files));
+            return files.GroupBy(f => Filter.Invoke(f))
+                                            .Where(g => g.HasMoreThan(1))
+                                            .ToPossibleDublette();
         }
 
     }

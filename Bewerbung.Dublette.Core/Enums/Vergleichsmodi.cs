@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Dublette.Core.Interfaces;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Dublette.Core.Interfaces;
 
 namespace Dublette.Core.Enums
 {

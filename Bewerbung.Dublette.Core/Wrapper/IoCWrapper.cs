@@ -1,9 +1,4 @@
 ﻿using Autofac;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dublette.Core.Wrapper
 {
@@ -14,7 +9,7 @@ namespace Dublette.Core.Wrapper
     public class IoCWrapper
     {
         private IContainer _container;
- 
+
         public IoCWrapper(IoCInitializator initMethod) { _container = initMethod.Build(); }
 
 

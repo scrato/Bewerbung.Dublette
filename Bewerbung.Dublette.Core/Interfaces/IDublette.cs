@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Dublette.Core.Interfaces
+﻿namespace Dublette.Core.Interfaces
 {
     /// <summary>
     /// Ergebnisobjekt, welches eine Dublette von mehr als einer Datei entspricht.

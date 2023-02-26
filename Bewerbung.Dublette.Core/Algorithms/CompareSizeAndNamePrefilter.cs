@@ -1,11 +1,5 @@
-﻿using Dublette.Core.DTOs;
+﻿using Dublette.Core.Enums;
 using Dublette.Core.Interfaces;
-using Dublette.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dublette.Core.Algorithms
 {
@@ -14,7 +8,7 @@ namespace Dublette.Core.Algorithms
     /// </summary>
     internal class CompareSizeAndNamePrefilter : FilePrefilterBase
     {
-        public CompareSizeAndNamePrefilter() : base(Vergleichsmodi.Größe_und_Name) {}
+        public CompareSizeAndNamePrefilter() : base(Vergleichsmodi.Größe_und_Name) { }
 
         /// <summary>
         /// Hier gilt gleicher Dateiname und gleiche Dateigröße

@@ -1,10 +1,5 @@
 ﻿using Dublette.Core.Interfaces;
 using Dublette.Core.Wrapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dublette.Core
 {
@@ -21,7 +16,7 @@ namespace Dublette.Core
         public IReadOnlyCollection<IFileInfo> Collect(string pfad)
         {
             var info = new DirectoryInfo(pfad);
-            return info.GetFiles("*.*",SearchOption.AllDirectories)
+            return info.GetFiles("*.*", SearchOption.AllDirectories)
                 .Select(f => new FileInfoWrapper(f))
                 .ToReadOnly();
         }
